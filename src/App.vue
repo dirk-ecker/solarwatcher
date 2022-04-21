@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app>
       <div style="width: 50px;">
-        <v-img src="/src/assets/logo.png" width="50"/>
+        <v-img :src="logoImage" width="50"/>
       </div>
       <v-app-bar-title>Solarwatcher</v-app-bar-title>
     </v-app-bar>
@@ -73,6 +73,7 @@
 <script setup>
 import { ref } from 'vue'
 import data from './assets/data.json'
+import logoImage from './assets/logo.png'
 
 const measurements = ref([])
 
