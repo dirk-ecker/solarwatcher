@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "17.10.2022",
+    "description": "Tagesleistung",
+    "power": 403.78,
+    "unit": "W/h"
+  },
+  {
+    "timestamp": "16.10.2022",
+    "description": "Tagesleistung",
+    "power": 100.55,
+    "unit": "W/h"
+  },
+  {
+    "timestamp": "15.10.2022",
+    "description": "Tagesleistung",
+    "power": 300.12,
+    "unit": "W/h"
+  }
+]
